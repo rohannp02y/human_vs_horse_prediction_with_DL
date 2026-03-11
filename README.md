@@ -219,15 +219,6 @@ The notebook includes:
 - **Binary classification** can be achieved with a single sigmoid output neuron
 - **Callbacks** enable custom training control (early stopping, learning rate scheduling)
 
-##  Future Improvements
-
-- [ ] Add data augmentation (rotation, flipping, zoom)
-- [ ] Implement transfer learning with pre-trained models (VGG16, ResNet)
-- [ ] Add confusion matrix and detailed metrics
-- [ ] Create a web interface for real-time predictions
-- [ ] Export model to TensorFlow Lite for mobile deployment
-- [ ] Add more classes (different animals)
-- [ ] Implement gradCAM for visualization
 
 ##  Contributing
 
