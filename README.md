@@ -2,11 +2,11 @@
 
 A deep learning project that uses Convolutional Neural Networks (CNN) to classify images as either horses or humans using TensorFlow and Keras.
 
-## 📊 Project Overview
+##  Project Overview
 
 This project implements a binary image classification model using deep learning to distinguish between images of horses and humans. The model is built using TensorFlow/Keras and achieves high accuracy through a multi-layer convolutional neural network architecture.
 
-## 🎯 Objectives
+##  Objectives
 
 - Build a CNN model from scratch for binary image classification
 - Train the model to distinguish between horse and human images
@@ -14,7 +14,7 @@ This project implements a binary image classification model using deep learning 
 - Achieve high accuracy on the classification task
 - Enable custom image prediction functionality
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 horse-vs-human-classification/
@@ -38,13 +38,13 @@ horse-vs-human-classification/
 └── .gitignore                       # Git ignore file
 ```
 
-## 📈 Dataset
+##  Dataset
 
 The project uses the **Horse or Human** dataset:
 
 - **Training Set**: 1,027 images
-  - Horse images: 500+
-  - Human images: 500+
+  - Horse images: 500
+  - Human images: 527
 - **Image Size**: 300x300 pixels
 - **Format**: RGB images
 - **Source**: Google's Learning Datasets
@@ -53,7 +53,7 @@ Dataset is automatically downloaded from:
 - Training: `https://storage.googleapis.com/learning-datasets/horse-or-human.zip`
 - Validation: `https://storage.googleapis.com/learning-datasets/validation-horse-or-human.zip`
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 The CNN model consists of:
 
@@ -96,7 +96,7 @@ Output (Binary Classification)
 - Binary crossentropy loss function
 - Custom callback for early stopping at 99.9% accuracy
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - **Python 3.x**
 - **TensorFlow 2.x**: Deep learning framework
@@ -106,7 +106,7 @@ Output (Binary Classification)
 - **PIL (Pillow)**: Image processing
 - **Google Colab**: Development environment (optional)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -156,7 +156,7 @@ jupyter nbconvert --to script notebooks/horse_vs_human.ipynb
 python horse_vs_human.py
 ```
 
-## 📊 Training Process
+##  Training Process
 
 1. **Data Loading**: Download and extract training and validation datasets
 2. **Data Preprocessing**: 
@@ -176,14 +176,14 @@ python horse_vs_human.py
 - **Loss**: Binary Crossentropy
 - **Metrics**: Accuracy
 
-## 🎯 Results
+##  Results
 
 The model achieves:
 - **Training Accuracy**: ~99.9% (with early stopping)
 - **Validation Accuracy**: Varies based on training run
 - **Quick convergence**: Usually within 10-15 epochs
 
-## 🖼️ Making Predictions
+##  Making Predictions
 
 You can test the model on custom images:
 
@@ -205,21 +205,21 @@ else:
     print("It's a horse!")
 ```
 
-## 📈 Visualizations
+##  Visualizations
 
 The notebook includes:
 - Sample training images (4x4 grid of horses and humans)
 - Training history plots (accuracy and loss curves)
 - Prediction results on test images
 
-## 🔍 Key Learnings
+##  Key Learnings
 
 - **Convolutional layers** effectively extract spatial features from images
 - **Data augmentation** (if implemented) helps prevent overfitting
 - **Binary classification** can be achieved with a single sigmoid output neuron
 - **Callbacks** enable custom training control (early stopping, learning rate scheduling)
 
-## 🚧 Future Improvements
+##  Future Improvements
 
 - [ ] Add data augmentation (rotation, flipping, zoom)
 - [ ] Implement transfer learning with pre-trained models (VGG16, ResNet)
@@ -229,7 +229,7 @@ The notebook includes:
 - [ ] Add more classes (different animals)
 - [ ] Implement gradCAM for visualization
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! To contribute:
 
@@ -239,32 +239,32 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## 👤Author
 
-**Your Name**
+**Rohan Neupanee**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@rohannp02y](https://github.com/rohannp02y)
+- LinkedIn: [Rohan Neupane](www.linkedin.com/in/rohan-neupane)
 - Email: your.email@example.com
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Dataset provided by Google's TensorFlow team
 - Inspired by Laurence Moroney's TensorFlow courses
 - TensorFlow and Keras documentation
 
-## 📚 Resources
+## Resources
 
 - [TensorFlow Documentation](https://www.tensorflow.org/)
 - [Keras Documentation](https://keras.io/)
 - [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
 - [Horse or Human Dataset](https://www.tensorflow.org/datasets/catalog/horses_or_humans)
 
-## 📧 Contact
+##  Contact
 
 For questions, suggestions, or collaboration opportunities, please open an issue or reach out via email.
 
@@ -272,6 +272,6 @@ For questions, suggestions, or collaboration opportunities, please open an issue
 
 ⭐ **If you found this project helpful, please give it a star!**
 
-## 🏷️ Tags
+##  Tags
 
 `deep-learning` `computer-vision` `image-classification` `tensorflow` `keras` `cnn` `neural-networks` `machine-learning` `python` `binary-classification`
